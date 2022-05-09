@@ -7,8 +7,6 @@ import random
 EMAIL = "wematupythontest2022@gmail.com"
 PASSWORD = "Jacques2013"
 
-##################### Extra Hard Starting Project ######################
-
 def birthdays_today():
     try:
         data = pd.read_csv("birthdays.csv")
