@@ -12,7 +12,7 @@ class MailManager():
         self.from_email = from_email
     
     
-    def send_birtday_wishes (self, birthdays: list,) -> None:
+    def send_birtday_wishes (self, birthdays: list) -> None:
         for wish in birthdays:
             self.send_mail(email=wish["email"], msg= wish["msg"])
     
